@@ -18,7 +18,6 @@ import { Button } from "@/components/ui/button";
 import { Form } from "@/components/ui/form";
 
 import { CustomFormField, CustomFormSelect } from "./FormComponents";
-import { loadBindings } from "next/dist/build/swc";
 
 function CreateJobForm() {
   const form = useForm<CreateAndEditJobType>({

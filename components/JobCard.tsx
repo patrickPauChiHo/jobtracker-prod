@@ -12,7 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Separator } from "./ui/separator";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { Badge } from "./ui/badge";
 import JobInfo from "./JobInfo";
 import DeleteJobBtn from "./DeleteJobBtn";

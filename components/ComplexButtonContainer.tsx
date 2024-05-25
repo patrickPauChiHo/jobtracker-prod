@@ -1,8 +1,7 @@
 "use client";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "./ui/button";
-
+import { Button } from "@/components/ui/button";
 type ButtonContainerProps = {
   currentPage: number;
   totalPages: number;

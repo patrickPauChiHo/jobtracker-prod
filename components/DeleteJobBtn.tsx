@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./ui/Button";
+import { Button } from "@/components/ui/button";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { deleteJobAction } from "@/utils/actions";
 import { useToast } from "./ui/use-toast";

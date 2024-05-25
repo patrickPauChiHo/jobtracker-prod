@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg";
 import links from "../utils/links";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "./ui/Button";
+import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 import React from "react";
 

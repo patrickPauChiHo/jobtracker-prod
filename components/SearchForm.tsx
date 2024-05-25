@@ -2,7 +2,7 @@
 import React from "react";
 import { Input } from "./ui/input";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
